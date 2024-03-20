@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doramas</title>
+   <style>
+    /* Reset CSS */
+    *{ 
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+    }
+    
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+        background-color: rgb(245, 152, 201);
+    }
+
+    header {
+        background-color: rgb(212, 78, 177);
+        color: rgb(225, 195, 217);
+        padding: 20px;
+        text-align: center;
+    }
+     header h1 {
+        margin: 0;
+     }
+     nav ul {
+        list-style-type: none;
+        padding: 0;
+     }
+
+     nav ul li {
+        display: inline;
+        margin-right: 20px;
+     }
+
+     nav ul li a {
+        color: rgb(88, 55, 78);
+        text-decoration: none;
+     }
+     
+     main {
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        padding: 20px;
+     }
+
+     .noticia {
+        position: relative;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(9, 0, 0, 0.1);
+        margin: 1px;
+     }
+     
+     .noticia img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+     }
+
+     .texto-sobreposto {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 3px;
+        color: aliceblue;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+     }
+     .noticia:hover .texto-sobreposto {
+        opacity: 1;
+     }
+     footer {
+        background-color: #333;
+        color: rgb(248, 220, 241);
+        padding: 20px;
+        text-align: center;
+     }
+     footer {
+
+     }
+   </style>
+</head>
+<body>
+    <header>
+        <h1>DORAMAS/도라마☆⁎⋆</h1>
+        <nav>
+            <ul>
+                <li><a href="oquesao.html">Oque é?</a></li>
+                <li><a href="coreia.html">streaming</a></li>
+                <li><a href="atores.html">Atores</a></li>
+                <li><a href="recomendações.html">Recomendações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="noticia">
+            <a href="oquesao.html"><img src="Design sem nome (1).png" alt="Noticias 1"</a>
+            <div class="texto-sobreposto"
+               <h2>Oque são Doramas?</h2>
+               <p>conheça um pouco sobre oque são series asiáticas</p>
+            </div>
+        </div>
+        
+     <div class="noticia">
+        <a href="coreia.html"><img src="streaming.jpg" alt="Noticias 2"</a>
+        <div class="texto-sobreposto"
+           <h2>Aonde assistir Doramas?</h2>
+           <p>conheça algumas plataformas de streaming para assistir series asiáticas</p>
+        </div>
+    </div>
+    <div class="noticia">
+        <a href="atores.html"><img src="Imagem do WhatsApp de 2024-03-19 à(s) 21.56.49_4837419c.jpg" alt="Noticias 3"</a>
+        <div class="texto-sobreposto"
+           <h2>Atores</h2>
+           <p>Veja alguns dos atores mais famosos da Coreia do sul</p>
+        </div>
+    </div>
+    <div class="noticia">
+        <a href="recomendações.html"><img src="transferir.jpg" alt="Noticias 4"</a>
+        <div class="texto-sobreposto"
+           <h2>recomendações</h2>
+           <p>Algumas recomendações para entrar no mundo dos K-dramas</p>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
